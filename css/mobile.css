@@ -1,0 +1,399 @@
+
+
+.vessel {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.menu {
+	display: none;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+.section {
+	padding: 0.15rem;
+	height: 100%;
+	background: #3b5998;
+	overflow-y: scroll;
+}
+
+.sec {
+	overflow: hidden;
+}
+
+/*导前页*/
+
+#page0 {
+	text-align: center;
+}
+
+.favicon {
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	border: 0.1rem solid #4c70ba;
+	background: url("../img/front.png");
+	background-size: cover;
+}
+
+.info {
+	width: 100%;
+	padding-bottom: 17px;
+	text-align: center;
+	color: #839CCF;
+}
+
+.info h1 {
+	margin-top: 0.2rem;
+}
+
+.info p {
+	font-size: 0.2rem;
+}
+
+.indivi {
+	width: 100%;
+	height: 1.1rem;
+	padding: 15px 0px;
+	border-top: 1px solid #839CCF;
+	font-size: 0.2rem;
+	/*line-height: 0.2rem;*/
+	color: #839CCF;
+}
+
+.indivi p {
+	text-align: left;
+	text-indent: 0.3rem;
+}
+
+.arrow {
+	width: 0.4rem;
+	height: 0.2rem;
+	background: white;
+	
+	position: fixed;
+	bottom: 0.1rem;
+	left: 50%;
+	margin-left: -0.2rem;
+}
+
+/*个人信息*/
+
+#page1 {
+	width: 100%;
+	height: 100%;
+}
+
+
+.information {
+	width: 100%;
+	height: 100%;
+}
+
+.info_title {
+	width: 100%;
+	height: 0.3rem;
+	/*margin: 0.05rem 0 0 0;*/
+	color: #839CCF;
+	font-size: 0.2rem;
+	
+	position: relative;
+}
+
+.info_title i {
+	font-size: 0.1rem;
+	
+	position: absolute;
+	top: 0.03rem;
+	left: 0;
+}
+
+.info_title h2 {
+	display: inline-block;
+	position: absolute;
+	font-size: 0.2rem;
+	left: 0.14rem;
+}
+
+.banner {
+	width: 100%;
+	height: 2rem;
+}
+
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+
+.name {
+	display: none;
+}
+
+.info_name ul {
+	margin-top: 0.05rem;
+}
+
+.info_name ul li {
+	width: 100%;
+	height: auto;
+	padding: 0.05rem 0;
+	border-bottom: 0.01rem solid white;
+}
+
+.info_name ul li i {
+	color: white;
+}
+
+.part b{
+	display: inline-block;
+	width: 0.65rem;
+	font-size: 0.15rem;
+	color: #839CCF;
+}
+
+.list a i{
+	font-size: 0.16rem;
+	color: #3B5998;
+}
+
+.part span {
+	font-size: 0.14rem;
+	color: #839CCF;
+}
+
+.tell {
+	display: none;
+}
+
+.git img {
+	width: 100%;
+	height: 100%;
+}
+
+/*个人技能*/
+.skill_cont {
+	display: none;
+}
+.title_cont h3 {
+	font-size: 0.13rem;
+	color: #839CCF;
+}
+
+.front {
+	width: 2.9rem;
+	height: 0.14rem;
+	margin-top: 0.05rem;
+	background: #EDEDED;
+	color: white;
+	line-height: 0.14rem;
+	position: relative;
+}
+
+.front span {
+	display: inline-block;
+	height: 100%;
+	background: #839CCF;
+	font-size: 0.12rem;
+	
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.front span i{
+	font-size: 0.12rem;
+}
+
+.front div{
+	height: 100%;
+	width: auto;
+	background: #c1c1c1;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.level {
+	color: #666;
+	position: absolute;
+	top: 0;
+	right: 0.05rem;
+}
+
+.title_cont {
+	margin-top: 0.05rem;
+	padding-bottom: 0.03rem;
+	border-bottom:1px solid #839CCF;
+}
+
+.skill_detal ul li p {
+    color: #839CCF;
+	font-size: 0.12rem;
+}
+
+/*教育经历*/
+.edu_banner {
+	
+	width: 100%;
+	height: 2rem;
+}
+
+.edu_info ul li {
+	float: left;
+	width: 50%;
+	height: auto;
+	margin-top: 0.1rem;
+	color: #839CCF;
+}
+
+.edu_info ul li h5 {
+	font-size: 0.18rem;
+	padding: 0.05rem 0;
+}
+
+.edu_info ul li span {
+	font-size: 0.12rem;
+}
+
+.line {
+	border: 1px solid white;
+	
+}
+
+.edu_banner img {
+	width: 100%;
+	height: 100%;
+}
+
+/*工作经验*/
+.job_exper {
+	color: #839CCF;
+}
+
+.com_title h4{
+	
+	font-size: 0.14rem;
+}
+
+.com_name p {
+	margin-left: 0.05rem;
+	font-size: 0.13rem;
+}
+
+.job_cont i{
+	font-size: 0.12rem;
+}
+
+.job_cont h6 {
+	display: inline-block;
+	font-size: 0.12rem;
+}
+
+.job_co {
+	margin-left: 0.05rem;
+}
+
+.job_co span {
+	display: inline-block;
+	border-bottom: 1px solid #839CCF;
+	position: relative;
+}
+
+.job_co span  i {
+	font-size: 0.10rem;
+	position: absolute;
+	left: 0;
+	bottom: 0.01rem;
+}
+
+.job_co span b {
+	font-size: 0.12rem;
+	margin-left: 0.1rem;
+}
+
+.cont1 p{
+	font-size: 0.12rem;
+	/*margin-top: 0.05rem;*/
+	text-indent: 0.2rem;
+	line-height: 0.15rem;
+}
+
+.object_exper {
+	color: #839CCF;
+}
+
+.obj_desc h6 {
+	display: inline-block;
+	font-size: 0.12rem;
+	margin-left: 0.05rem;
+}
+
+.obj_desc p {
+	display: inline-block;
+	font-size: 0.12rem;
+	margin-left: 0.05rem;
+}
+
+.desc p {
+	margin-left: 0.08rem;
+	text-indent: 0.2rem;
+}
+
+.obj2 {
+	display: none;
+}
+
+/*联系我*/
+
+.contack {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.findme {
+	width: 100%;
+	height: 1rem;
+	position: absolute;
+	top: 50%;
+	margin-top: -0.5rem;
+	text-align: center;
+}
+
+.contack  p{
+	color: #839CCF;
+	font-size: 0.25rem;
+}
+
+.contact_way {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	width: 1.5rem;
+	height: auto;
+}
+
+.a_bg {
+	display: inline-block;
+	width: 0.45rem;
+	height: 0.45rem;
+	margin-top: 0.1rem;
+	border: 1px solid white;
+	line-height: 0.45rem;
+}
+
+.a_bg i {
+	
+	font-size: 0.3rem;
+}
+
+.intro {
+	display: none;
+}

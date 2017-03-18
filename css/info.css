@@ -1,0 +1,170 @@
+
+/*手机特效*/
+
+*,
+:after,
+:before {
+  box-sizing: border-box
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table
+}
+
+.clearfix:after {
+  clear: both;
+  display: block
+}
+
+.fresh-ui-wrap {
+  width: 100%;
+  height: 100%;
+  /*overflow: hidden;*/
+  position: relative;
+}
+
+.fresh-ui:hover .header .social .list {
+  right: 0.15rem;
+}
+
+.fresh-ui:hover .header .social .list a {
+  -webkit-transform: translateX(-0.15rem);
+  -ms-transform: translateX(-0.15rem);
+      transform: translateX(-0.15rem);
+}
+
+.fresh-ui .header {
+  position: relative;
+}
+
+.fresh-ui .header .photo img {
+  width: 100%;
+  display: block;
+}
+
+.fresh-ui .header .social {
+
+  bottom: 0;
+  width: 1.5rem;
+  padding: 0.15rem;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.fresh-ui .header .social:after {
+  top: 0;
+  left: 1.5rem;
+  content: '';
+  width: 3rem;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, .5);
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  -webkit-transition: all .35s ease-in-out 0s;
+  transition: all .35s ease-in-out 0s;
+}
+
+.fresh-ui:hover .header .social:after {
+  left: -1.5rem;
+}
+
+.fresh-ui:hover .header .social .list a:before {
+  right: 0.4rem;
+}
+
+.fresh-ui .header .social .list {
+  right: -0.1rem;
+  z-index: 999;
+  position: absolute;
+}
+
+.fresh-ui .header .social .list a {
+  width: 0.3rem;
+  height: 0.3rem;
+  color: inherit;
+  display: block;
+  margin: 0.12rem 0;
+  background: #fff;
+  line-height: 0.3rem;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  -webkit-transform: translateX(0.3rem);
+  -ms-transform: translateX(0.3rem);
+  transform: translateX(0.3rem);
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+  box-shadow: 0 0.08rem 0.17rem 0 rgba(0, 0, 0, .2), 0 0.06rem 0.2rem 0 rgba(0, 0, 0, .19);
+}
+
+.fresh-ui .header .social .list a:before {
+  top: 0;
+  color: #ddd;
+  right: 2rem;
+  font-size: 0.14rem;
+  padding: 0 0.1rem;
+  min-width: 0.8rem;
+  position: absolute;
+  border-radius: 0.02rem;
+  content: attr(data-title);
+  background-color: rgba(0, 0, 0, .4);
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+}
+
+.fresh-ui .header .social .list a:nth-child(1),
+.fresh-ui .header .social .list a:nth-child(1):before {
+  -webkit-transition-duration: .1s;
+  transition-duration: .1s;
+}
+
+.fresh-ui .header .social .list a:nth-child(2),
+.fresh-ui .header .social .list a:nth-child(2):before {
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
+}
+
+.fresh-ui .header .social .list a:nth-child(3),
+.fresh-ui .header .social .list a:nth-child(3):before {
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+}
+
+.fresh-ui .header .social .list a:nth-child(4),
+.fresh-ui .header .social .list a:nth-child(4):before {
+  -webkit-transition-duration: .4s;
+  transition-duration: .4s;
+}
+
+.fresh-ui .header .social .list a:nth-child(5) {
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+}
+
+.fresh-ui .content {
+  padding-top: 0.01rem;
+}
+
+.fresh-ui .content .name {
+  font-size: 0.28rem;
+  font-weight: 900;
+  margin-bottom: 0.15rem;
+}
+.fresh-ui .content .text{
+  line-height:0.24rem;
+}
+
+.fresh-ui .content .list a {
+  float: left;
+  clear: both;
+  color: inherit;
+  font-size: 0.16rem;
+  line-height: 0.2rem;
+  display: inline-block;
+  text-decoration: none;
+}

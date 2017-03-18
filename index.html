@@ -1,347 +1,128 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" type="text/css" href="css/index.css"/>
-    <script type="text/javascript" src="js/jquery-1.7.1.min.js" ></script>
-    <title>朋友圈</title>
-</head>
-<body>
-	
-	<header>
-		<div class="back">
-			<i></i>
-			<span>发现</span>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>个人简历</title>
+		<link rel="stylesheet" type="text/css" href="css/Global.css"/>
+		
+		
+		<![if !IE]>
+        	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <![endif]>
+		
+		<!--[if lte IE 8]>
+        	<link rel="stylesheet" href="css/pc.css" />
+        <![endif]-->  
+		<link media="screen and (min-device-width:1001px)" rel="stylesheet" href="css/pc.css" />
+        <link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+        <link rel="stylesheet" type="text/css" href="css/hover.css"/>
+        
+        <link rel="stylesheet" href="css/click.css" />
+        <link media="screen and (min-device-width:240px) and (max-device-width:1000px)" rel="stylesheet" href="css/info.css" />
+        <link media="screen and (min-device-width:240px) and (max-device-width:1000px)" rel="stylesheet" href="css/mobile.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link media="screen and (min-device-width:240px) and (max-device-width:1000px)" rel="stylesheet" href="css/animate.min.css" />
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js" ></script>
+        
+        
+        <!--[if lte IE 8]>
+        	<link rel="stylesheet" type="text/css" href="css/ie.css"/>
+        	<script type="text/javascript" src="plugin/PIE_IE678.js" ></script>
+        <![endif]-->  
+        
+	</head>
+	<body>
+		<div class="cover">
+			<div class="cover2">
+				<img class="cancle" src="img/cancle.png"/>
+				<div>
+					<img class="show_img" />
+				</div>
+			</div>
 		</div>
-		
-		<span class="title">车友圈</span>
-		
-		<div class="camera">
-			
-		</div>
-	</header>
-	
-	<section class="banner">
-		<img src="img/friendcircle-banner.png"/>
-		<div class="person">
-			<div class="favicon"></div>
-			<span class="name">张小六</span>
-		</div>
-		<i class="point"></i>
-	</section>
-	
-	<section class="content">
-		<img class="head_img" src="img/friendcircle-banner.png"/>
-		
-		<div class="contain">
-			<p class="owner">凌度</p>
-			<p class="text">滴滴出行，出行无忧。</p>
-			
-			<div class="trans">
-				<img class="head_img" src="img/friendcircle-banner.png"/>
-				<p class="trans_text">滴滴出行，从此出行再无忧。滴滴出行，从此出行再无忧。</p>
-				<div class="assist"></div>
-			</div>
-			
-			<div class="comment">
-				<div class="like">
-					<i class="unagree"></i>
-					<p class="">125</p>
+        
+        <div class="vessel">
+        	
+        	<div class="menu">
+				<ul class="skill_panel">
+					<a class="aboutme a_bg">
+						<div class="circle div_bg">
+							<i class="icon iconfont icon-me i_col"></i>
+						</div>
+					</a>
+					<a class="per_skill a_bg">
+						<div class="circle div_bg">
+							<i class="icon iconfont icon-skill_hover i_col"></i>
+						</div>
+					</a>
+					<a class="edu_exper a_bg ">
+						<div class="circle div_bg">
+							<i class="icon iconfont icon-edu i_col"></i>
+						</div>
+					</a>
+					<a class="job_exper a_bg ">
+						<div class="circle div_bg">
+							<i class="icon iconfont icon-job i_col"></i>
+						</div>
+					</a>
+				</ul>
+				<ul class="contack_me">
+					<li class="tel"></li>
+					<li class="email"></li>
+				</ul>
+	        </div> 
+	        
+	        <div class="container">
+	        	<div id="cubeTransition">
+	        			
+				</div>
+	        </div>
+	        
+        	<div class="intro">
+				<div class="favicon">
+					<div class="circle">
+<!--						<img src="img/front.png"/>-->
+					</div>
 				</div>
 				
-				<div class="discuss">
-					<i></i>
-					<p>评论</p>
+				<div class="info">
+					<h1>毛武林</h1>
+					<p>24岁  男</p>
+					<p><i class="icon iconfont icon-address"></i>现住地   西安</p>
 				</div>
 				
-				<div class="dele">
-					<i></i>
-					<p>删除</p>
-				</div>
-			</div>
-			
-			<p class="time">1小时前</p>
-			
-			<ul class="dis_cont">
-				<li><a class="dis_name" href="javascript:void(0)">秋香</a>:赞~</li>
-				<li><a class="dis_name" href="javascript:void(0)">我爱保时捷</a>:滴滴，让出行更美丽！</li>
-				<div class="more">
-					<span>查看更多<p></p>评论</span>
-					<i class="laydown"></i>
-				</div>
-			</ul>
-		</div>
-		
-		<div class="assist"></div>
-	</section>
-	
-	<section class="content">
-		<img class="head_img" src="img/friendcircle-banner.png"/>
-		
-		<div class="contain">
-			<p class="owner">张小六</p>
-			
-			<div class="trans">
-				<img class="head_img" src="img/friendcircle-banner.png"/>
-				<p class="trans_text">注册司机接单拿简历，随时随地可接简历，赢取高额奖励，轻松赚外快！</p>
-				<div class="assist"></div>
-			</div>
-			
-			<div class="comment">
-				<div class="like">
-					<i class="unagree"></i>
-					<p class="">125</p>
+				<div class="indivi">
+					<p>对编程有极高热情，对新事物接受能力强，喜欢对问题追根问底。富有责任心，能积极与他人沟通，有强烈的集体荣誉感。个人梦想是有自己的游戏工作室，目前小目标是成为全栈工程师。</p>
 				</div>
 				
-				<div class="discuss">
-					<i></i>
-					<p>评论</p>
+				<div class="contack">
+					<p>联系我</p>
+					<div class="contact_way">
+						<a class="a_bg" href="tel:18829224680">
+							<i class="icon iconfont icon-phone1 i_col_cl"></i>
+						</a>
+						<a class="a_bg" href="mailto:18829224680@163.com" >
+							<i class="icon iconfont icon-email i_col_cl"></i>
+						</a>
+						<a class="a_bg" onclick="showCover(1)">
+							<i class="icon iconfont icon-qq i_col_cl"></i>
+						</a>
+						<a class="a_bg" onclick="showCover(2)">
+							<i class="icon iconfont icon-wechat i_col_cl"></i>
+						</a>
+					</div>
 				</div>
-				
-				<div class="dele">
-					<i></i>
-					<p>删除</p>
-				</div>
-			</div>
-			
-			<p class="time">13小时前</p>
-			
-			<ul class="dis_cont">
-				<li><a class="dis_name" href="javascript:void(0)">星星点灯</a>:每天上下班顺两单，一周下来节碳量相当于多中了了两棵数，节能环保还能减少堵车！</li>
-				<li><a class="dis_name" href="javascript:void(0)">至尊宝</a>:了解从未接触过的领域，比赚钱让我更心动的是收获。</li>
-				<li><a class="dis_name" href="javascript:void(0)">野马</a>回复<a class="dis_name" href="javascript:void(0)">至尊宝</a>:有内涵~</li>
-				<li><a class="dis_name" href="javascript:void(0)">星星点灯</a>:每天上下班顺两单，一周下来节碳量相当于多中了了两棵数，节能环保还能减少堵车！</li>
-				<li><a class="dis_name" href="javascript:void(0)">至尊宝</a>:了解从未接触过的领域，比赚钱让我更心动的是收获。</li>
-				<li><a class="dis_name" href="javascript:void(0)">野马</a>回复<a class="dis_name" href="javascript:void(0)">至尊宝</a>:有内涵~</li>
-				<li><a class="dis_name" href="javascript:void(0)">星星点灯</a>:每天上下班顺两单，一周下来节碳量相当于多中了了两棵数，节能环保还能减少堵车！</li>
-				<li><a class="dis_name" href="javascript:void(0)">至尊宝</a>:了解从未接触过的领域，比赚钱让我更心动的是收获。</li>
-				<li><a class="dis_name" href="javascript:void(0)">野马</a>回复<a class="dis_name" href="javascript:void(0)">至尊宝</a>:有内涵~</li>
-				<li><a class="dis_name" href="javascript:void(0)">星星点灯</a>:每天上下班顺两单，一周下来节碳量相当于多中了了两棵数，节能环保还能减少堵车！</li>
-				<li><a class="dis_name" href="javascript:void(0)">至尊宝</a>:了解从未接触过的领域，比赚钱让我更心动的是收获。</li>
-				<li><a class="dis_name" href="javascript:void(0)">野马</a>回复<a class="dis_name" href="javascript:void(0)">至尊宝</a>:有内涵~</li>
-				<li><a class="dis_name" href="javascript:void(0)">星星点灯</a>:每天上下班顺两单，一周下来节碳量相当于多中了了两棵数，节能环保还能减少堵车！</li>
-				<div class="more">
-					<span>查看更多<p>14条</p>评论</span>
-					<i></i>
-				</div>
-			</ul>
-		</div>
+	        </div>
+        </div>
+        <![if !IE]>
+        	<script type="text/javascript" src="js/animate.js" ></script>
+        	<script type="text/javascript" src="js/jquery.touchSwipe.js" ></script>
+        	<script type="text/javascript" src="js/mousewheel.js" ></script>
+        	<script type="text/javascript" src="js/cubeTransition.js" ></script>
+        <![endif]>
 		
-		<div class="assist"></div>
-	</section>
-	
-	<section class="content">
-		<img class="head_img" src="img/friendcircle-banner.png"/>
-		
-		<div class="contain">
-			<p class="owner">甲壳虫</p>
-			<p class="text">2017年1月，心之向往，记我的西藏行，历时16天，川进青出。</p>
-			
-			<div class="images">
-				<div class="img">
-					<img src="img/friendcircle-banner.png"/>
-				</div>
-			</div>
-			
-			<div class="comment">
-				<div class="like">
-					<i class="unagree"></i>
-					<p class="">125</p>
-				</div>
-				
-				<div class="discuss">
-					<i></i>
-					<p>评论</p>
-				</div>
-				
-				<div class="dele">
-					<i></i>
-					<p>删除</p>
-				</div>
-			</div>
-			
-			<p class="time">13小时前</p>
-			
-			<ul class="dis_cont">
-				<li><a class="dis_name" href="javascript:void(0)">星星点灯</a>:每天上下班顺两单，一周下来节碳量相当于多中了了两棵数，节能环保还能减少堵车！</li>
-				<li><a class="dis_name" href="javascript:void(0)">至尊宝</a>:了解从未接触过的领域，比赚钱让我更心动的是收获。</li>
-				<li><a class="dis_name" href="javascript:void(0)">野马</a>回复<a class="dis_name" href="javascript:void(0)">至尊宝</a>:有内涵~</li>
-				<li><a class="dis_name" href="javascript:void(0)">甲壳虫</a>回复<a class="dis_name" href="javascript:void(0)">星星点灯</a>:绿色出行！</li>
-				<div class="more">
-					<span>查看更多<p></p>评论</span>
-					<i class="laydown"></i>
-				</div>
-			</ul>
-		</div>
-		
-		<div class="assist"></div>
-	</section>
-	
-	<section class="content">
-		<img class="head_img" src="img/friendcircle-banner.png"/>
-		
-		<div class="contain">
-			<p class="owner">甲壳虫</p>
-			<p class="text">2017年1月，心之向往，记我的西藏行，历时16天，川进青出。</p>
-			
-			<div class="images">
-				<div class="img">
-					<img src="img/friendcircle-banner.png"/>
-					<img src="img/friendcircle-banner.png"/>
-				</div>
-			</div>
-			
-			<div class="comment">
-				<div class="like">
-					<i class="unagree"></i>
-					<p class="">125</p>
-				</div>
-				
-				<div class="discuss">
-					<i></i>
-					<p>评论</p>
-				</div>
-				
-				<div class="dele">
-					<i></i>
-					<p>删除</p>
-				</div>
-			</div>
-			
-			<p class="time">13小时前</p>
-			
-		</div>
-		
-		<div class="assist"></div>
-	</section>
-	
-	<section class="content">
-		<img class="head_img" src="img/friendcircle-banner.png"/>
-		
-		<div class="contain">
-			<p class="owner">甲壳虫</p>
-			<p class="text">2017年1月，心之向往，记我的西藏行，历时16天，川进青出。</p>
-			
-			<div class="images">
-				<div class="img">
-					<img src="img/friendcircle-banner.png"/>
-					<img src="img/friendcircle-banner.png"/>
-					<img src="img/friendcircle-banner.png"/>
-				</div>
-			</div>
-			
-			<div class="comment">
-				<div class="like">
-					<i class="unagree"></i>
-					<p class="">125</p>
-				</div>
-				
-				<div class="discuss">
-					<i></i>
-					<p>评论</p>
-				</div>
-				
-				<div class="dele">
-					<i></i>
-					<p>删除</p>
-				</div>
-			</div>
-			
-			<p class="time">13小时前</p>
-			
-		</div>
-		
-		<div class="assist"></div>
-	</section>
-
-	<section class="content">
-		<img class="head_img" src="img/friendcircle-banner.png"/>
-		
-		<div class="contain">
-			<p class="owner">甲壳虫</p>
-			<p class="text">2017年1月，心之向往，记我的西藏行，历时16天，川进青出。</p>
-			
-			<div class="images">
-				<div class="img">
-					<img src="img/friendcircle-banner.png"/>
-					<img src="img/friendcircle-banner.png"/>
-					<img src="img/friendcircle-banner.png"/>
-					<img src="img/friendcircle-banner.png"/>
-				</div>
-			</div>
-			
-			<div class="comment">
-				<div class="like">
-					<i class="unagree"></i>
-					<p class="">125</p>
-				</div>
-				
-				<div class="discuss">
-					<i></i>
-					<p>评论</p>
-				</div>
-				
-				<div class="dele">
-					<i></i>
-					<p>删除</p>
-				</div>
-			</div>
-			
-			<p class="time">13小时前</p>
-			
-		</div>
-		
-		<div class="assist"></div>
-	</section>
-	
-	<section class="content">
-		<img class="head_img" src="img/friendcircle-banner.png"/>
-		
-		<div class="contain">
-			<p class="owner">甲壳虫</p>
-			<p class="text">2017年1月，心之向往，记我的西藏行，历时16天，川进青出。</p>
-			
-			<div class="images">
-				<div class="img">
-					<img src="img/friendcircle-banner.png"/>
-					<img src="img/friendcircle-banner.png"/>
-					<img src="img/friendcircle-banner.png"/>
-					<img src="img/friendcircle-banner.png"/>
-					<img src="img/friendcircle-banner.png"/>
-					<img src="img/friendcircle-banner.png"/>
-					<img src="img/friendcircle-banner.png"/>
-					<!--<img src="img/friendcircle-banner.png"/>
-					<img src="img/friendcircle-banner.png"/>-->
-				</div>
-			</div>
-			
-			<div class="comment">
-				<div class="like">
-					<i class="unagree"></i>
-					<p class="">125</p>
-				</div>
-				
-				<div class="discuss">
-					<i></i>
-					<p>评论</p>
-				</div>
-				
-				<div class="dele">
-					<i></i>
-					<p>删除</p>
-				</div>
-			</div>
-			
-			<p class="time">13小时前</p>
-			
-		</div>
-		
-		<div class="assist"></div>
-	</section>
-	
-	<footer>已显示全部内容</footer>
-
-	<script type="text/javascript" src="js/index.js" ></script>
-</body>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/clickwe-chat.js" ></script>
+	</body>
 </html>

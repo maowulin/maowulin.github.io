@@ -1,0 +1,108 @@
+
+
+
+body {
+    /*overflow-y: hidden;*/
+   position: relative;
+}
+
+#intro {
+	width: 100%;
+	height: 100px;
+}
+
+.cover {
+	display: none;
+	width: 100%;
+	height: 100%;
+	
+	background: rgba(0, 0, 0, 0.8);
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	z-index: 999;
+}
+
+.cover2 {
+	width: 100%;
+	height: 100%;
+	
+	position: relative;
+}
+
+.cover2 div {
+	
+	
+	width: 200px;
+	height: 200px;
+	
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.cancle {
+	
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.show_img {
+	width: 100%;
+	height: 100%;
+}
+
+/*移动页面*/
+/*.mo_cover {
+	display: none;
+	width: 100%;
+	height: 100%;
+	
+	background: rgba(0, 0, 0, 0.8);
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	z-index: 999;
+}
+
+.mo_cover2 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.can_pic {
+	width: 40px;
+	height: 40px;
+	
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.pic {
+	width: 200px;
+	height: 200px;
+	
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.pic img {
+	width: 100%;
+	height: 100%;
+}*/

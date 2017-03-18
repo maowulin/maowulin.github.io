@@ -1,0 +1,93 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1488106363287'); /* IE9*/
+  src: url('iconfont.eot?t=1488106363287#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1488106363287') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1488106363287') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1488106363287#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-me:before { content: "\e623"; }
+
+.icon-phone:before { content: "\e631"; }
+
+.icon-edu:before { content: "\e629"; }
+
+.icon-download:before { content: "\e60a"; }
+
+.icon-book:before { content: "\e627"; }
+
+.icon-qq:before { content: "\e616"; }
+
+.icon-add:before { content: "\e607"; }
+
+.icon-email:before { content: "\e60b"; }
+
+.icon-picture:before { content: "\e6da"; }
+
+.icon-photoshop:before { content: "\e632"; }
+
+.icon-php:before { content: "\e633"; }
+
+.icon-phone1:before { content: "\e608"; }
+
+.icon-download1:before { content: "\e64c"; }
+
+.icon-email1:before { content: "\e63d"; }
+
+.icon-bootstrap:before { content: "\e602"; }
+
+.icon-jquery:before { content: "\e603"; }
+
+.icon-js:before { content: "\e605"; }
+
+.icon-riqifuzhi:before { content: "\e609"; }
+
+.icon-mysql:before { content: "\e6db"; }
+
+.icon-ficss3:before { content: "\e639"; }
+
+.icon-tool:before { content: "\e678"; }
+
+.icon-save:before { content: "\e8f1"; }
+
+.icon-pen:before { content: "\e663"; }
+
+.icon-ios:before { content: "\e656"; }
+
+.icon-ios1:before { content: "\e60c"; }
+
+.icon-java:before { content: "\e60d"; }
+
+.icon-wechat:before { content: "\e645"; }
+
+.icon-job:before { content: "\e7dd"; }
+
+.icon-address:before { content: "\e600"; }
+
+.icon-filehtml5:before { content: "\e6e3"; }
+
+.icon-instanceobjgcroot:before { content: "\e657"; }
+
+.icon-website:before { content: "\e9cb"; }
+
+.icon-me1:before { content: "\e626"; }
+
+.icon-address1:before { content: "\e618"; }
+
+.icon-angular:before { content: "\e619"; }
+
+.icon-js1:before { content: "\e610"; }
+
+.icon-ENGLISH:before { content: "\e505"; }
+
+.icon-skill_hover:before { content: "\e62f"; }
+
